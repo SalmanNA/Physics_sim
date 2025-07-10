@@ -30,7 +30,7 @@ public class MyPanel extends JPanel implements ActionListener {
         setPreferredSize(new Dimension(width, height));
 
         // Sample shapes
-        for (int i = 1; i < 10; i++) {
+        for (int i = 0; i < 1; i++) {
             shapes.add(new Circle(i * 60, 100, 50, 50, 0, 0));
         }
         // Add more shapes (e.g., Square) here...

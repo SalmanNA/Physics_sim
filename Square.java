@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.geom.Path2D;
 import java.awt.geom.Point2D;
+import java.awt.geom.Point2D.Double;
 import java.util.ArrayList;
 import java.util.List;
 import java.awt.Point;
@@ -42,5 +43,10 @@ public class Square extends Shape {
         g.drawPolygon(xs, ys, 3);    // Optional outline
     }
 
+    }
+    @Override
+    public Double[] getCoords() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCoords'");
     }
 }

@@ -1,0 +1,4 @@
+1) Find way to make all basic shape out of triangles.
+2) Implement collision detection bwtween all basic shapes using the individual triangles
+3) Then figure out how to use the function to make complex pollygons from triangles
+3) implement collision for those. Should be simple cuz uses same as other one since all triangles
